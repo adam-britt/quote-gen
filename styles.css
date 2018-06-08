@@ -63,21 +63,66 @@ footer, a:hover {
 }
 
 
-@media only screen and (max-width: 990px) {
-
-}
-
-
-@media only screen and (max-width: 768px) {
-
-}
-
-
-@media only screen and (max-width: 441px) {
-
-}
-
-
+/* Smart Watch */
 @media only screen and (max-width: 398px) {
-
+	#quote-text {
+		font-size: 1.25rem;
+	}
+	#quote-source {
+		font-size: 1rem;
+	}
 }
+
+
+/* Phone */
+@media only screen and (max-width: 441px) {
+	h1 {
+		font-size: 1.5rem;
+	}
+	.title {
+		margin-bottom: 2rem;
+	}
+	#quote-text {
+		font-size: 1.5rem;
+	}
+}
+
+
+/* Tablet */
+@media only screen and (max-width: 768px) {
+	h1 {
+		font-size: 2rem;
+	}
+	#quote-text {
+		text-align: center;
+		font-size: 1.5rem;
+	}
+	#quote-source {
+		margin-top: 1rem;
+		text-align: center;
+		font-size: 1.25rem;
+	}
+	.quote-buttons {
+		text-align: center;
+		margin-top: 2rem;
+	}
+}
+
+
+/* Laptop */
+@media only screen and (max-width: 990px) {
+	h1 {
+		font-size: 3rem;
+	}
+	#quote-text {
+		font-size: 1.75rem;
+	}
+	#quote-source {
+		font-size: 1.5rem;
+	}
+}
+
+
+
+
+
