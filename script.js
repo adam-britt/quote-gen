@@ -1,9 +1,3 @@
-/* $(document).ready(function() {
-	$(function () {
-		$('[data-toggle="tooltip"]').tooltip()
-	});
-}); */
-
 // Store 20 quotes in an array
 var quotes = [
 	{content: "Those who can make you believe absurdities can make you commit atrocities.", source: "-Voltair"},

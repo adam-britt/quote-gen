@@ -26,9 +26,10 @@ footer, a:hover {
 	margin: auto;
 	padding: 2rem;
 	max-width: 50rem;
+	font-size: 20pt;
 }
 .quote-text {
-	font-size: 2rem;
+	font-size: 50pt;
 }
 .quote-source {
 	width: 100%;
@@ -50,18 +51,22 @@ footer, a:hover {
 .btn-primary {
 	background-color: black;
 	color: white;
-	font-size: 3rem;
+	font-size: 1.5rem;
 }
 .btn-primary:hover {
-	background-color: #ab0522;
-	color: white;
+	background-color: white;
+	color: black;
 }
 .credits {
 	position: fixed;
 	text-align: center;
 	bottom: 0;
 	width: 100%;
-	font-size: 3rem;
+	font-size: 2rem;
+}
+p {
+	width: 100%;
+	text-align: center;
 }
 
 
